@@ -37,6 +37,10 @@ function button1() {
 	   element.classList.remove("w3-blue");
 	   element.style.textAlign= "";
 
+	   var element = document.getElementById("test4");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
+
 	}
 	
 function button2() {
@@ -51,6 +55,10 @@ function button2() {
 	    var element = document.getElementById("test3");
 	   element.classList.remove("w3-blue");
 	   element.style.textAlign= "";
+
+	   var element = document.getElementById("test4");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
 	   
 	}
 
@@ -58,6 +66,31 @@ function button3() {
 		var element = document.getElementById("test3");
 	   element.classList.add("w3-blue");
 	   element.style.textAlign= "center";
+
+	   var element = document.getElementById("test2");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
+	   
+	   var element = document.getElementById("test1");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
+
+	   var element = document.getElementById("test4");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
+	   
+	}
+
+
+function button4() {
+
+		var element = document.getElementById("test4");
+	   element.classList.add("w3-blue");
+	   element.style.textAlign= "center";
+
+		var element = document.getElementById("test3");
+	   element.classList.remove("w3-blue");
+	   element.style.textAlign= "";
 
 	   var element = document.getElementById("test2");
 	   element.classList.remove("w3-blue");

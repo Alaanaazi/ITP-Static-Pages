@@ -99,5 +99,10 @@
 	text-decoration: none;
 }
 
+.bts a:hover{
+	background: black;
+	color: white;
+}
+
 
 

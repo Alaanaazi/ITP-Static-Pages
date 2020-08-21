@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstraps.min.css">
   	<link rel="stylesheet" href="assets/theme/css/style1.css">
   	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional1.css" type="text/css">
+  	
+  	<script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js"> </script>
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">

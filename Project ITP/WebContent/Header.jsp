@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 
 <link rel="stylesheet" href="styles/homestyle.css">
@@ -34,10 +35,25 @@
 				</li>
 				
 								
-				<li class="nav-item">
-					<a class="nav-link" href="#"> Services </a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+				
+					<div class="dropdown-menu bts" aria-labelledby="dropdownMenuLink" style="text-decoration:none;">
+					    <a class="dropdown-item" href="#">Rooms</a>
+					    <a class="dropdown-item" href="#">Restaurant</a>
+					</div>
 				</li>
 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Events </a>
+				
+					<div class="dropdown-menu bts" aria-labelledby="dropdownMenuLink" style="text-decoration:none;">
+					    <a class="dropdown-item" href="#">Rooms</a>
+					    <a class="dropdown-item" href="#">Events</a>
+					    <a class="dropdown-item" href="#">Restaurant</a>
+					</div>
+				</li>
+				
 				<li class="nav-item" id="try3">
 					<a class="nav-link" href="Home.jsp#zooka"> Contact us </a> 
 				</li>
